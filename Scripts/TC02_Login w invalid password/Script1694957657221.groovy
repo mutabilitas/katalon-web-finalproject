@@ -17,6 +17,12 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
+def randomNo = org.apache.commons.lang.RandomStringUtils.randomNumeric(3)
+
+def initialPass = 'payattent+987'
+
+def invalidPass = initialPass.replace('987', randomNo.toString())
+
 WebUI.callTestCase(findTestCase('Reusable/Open Browser'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.waitForElementVisible(findTestObject('Homepage/header_About'), 0)
@@ -37,7 +43,9 @@ WebUI.setText(findTestObject('Login-Logout/input_Username'), GlobalVariable.vali
 
 WebUI.verifyElementVisible(findTestObject('Login-Logout/txt_Password'))
 
-WebUI.setText(findTestObject('Login-Logout/input_Password'), GlobalVariable.validPassword)
+WebUI.setText(findTestObject('Login-Logout/input_Password'), invalidPass)
+
+WebUI.verifyElementVisible(findTestObject('Login-Logout/input_Password'))
 
 WebUI.verifyElementVisible(findTestObject('Login-Logout/txt_REMEMBER ME'))
 
@@ -45,9 +53,9 @@ WebUI.verifyElementVisible(findTestObject('Login-Logout/btn_SignIn'))
 
 WebUI.click(findTestObject('Login-Logout/btn_SignIn'))
 
-WebUI.waitForElementVisible(findTestObject('Login-Logout/txt_signedUser'), 0)
+WebUI.verifyElementPresent(findTestObject('Login-Logout/txt_Incorrect credentials'), 0)
 
-WebUI.verifyElementVisible(findTestObject('Login-Logout/txt_signedUser'))
+WebUI.verifyElementNotVisible(findTestObject('Login-Logout/txt_signedUser'), FailureHandling.STOP_ON_FAILURE)
 
-WebUI.verifyElementNotVisible(findTestObject('Login-Logout/popup_SignIn'))
+WebUI.closeBrowser()
 
