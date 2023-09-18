@@ -17,7 +17,11 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable/Adding product to cart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('Reusable/View HPZ3200 product page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.closeBrowser()
+WebUI.clearText(findTestObject('Product-Mice/HP Z3200/input_Quantity'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.setText(findTestObject('Product-Mice/HP Z3200/input_Quantity'), '2')
+
+WebUI.click(findTestObject('Product-Mice/HP Z3200/button_ADD TO CART'))
 

@@ -17,33 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable/Successful Login'), [:], FailureHandling.STOP_ON_FAILURE)
-
-WebUI.waitForElementVisible(findTestObject('Homepage/header_About'), 0)
-
-WebUI.verifyElementVisible(findTestObject('Homepage/div_Mice'))
-
-WebUI.click(findTestObject('Homepage/div_Mice'))
-
-WebUI.waitForElementVisible(findTestObject('Product-Mice/h3_MICE'), 0)
-
-WebUI.verifyElementVisible(findTestObject('Product-Mice/img_HPZ3200'))
-
-WebUI.verifyElementVisible(findTestObject('Product-Mice/link_HP Z3200 Wireless Mouse'))
-
-WebUI.click(findTestObject('Product-Mice/link_HP Z3200 Wireless Mouse'))
-
-WebUI.waitForElementVisible(findTestObject('Product-Mice/HP Z3200/h1_HP Z3200 WIRELESS MOUSE'), 0)
-
-WebUI.verifyElementVisible(findTestObject('Product-Mice/HP Z3200/h1_HP Z3200 WIRELESS MOUSE'))
-
-WebUI.verifyElementVisible(findTestObject('Product-Mice/HP Z3200/txt_PriceorSoldOut'))
-
-WebUI.verifyElementVisible(findTestObject('Product-Mice/HP Z3200/h2_Color'))
-
-WebUI.verifyElementVisible(findTestObject('Product-Mice/HP Z3200/label_Quantity'))
-
-WebUI.verifyElementVisible(findTestObject('Product-Mice/HP Z3200/button_ADD TO CART'))
+WebUI.callTestCase(findTestCase('Reusable/View HPZ3200 product page'), [:], FailureHandling.STOP_ON_FAILURE)
 
 WebUI.closeBrowser()
 

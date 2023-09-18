@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_QTY 2</name>
+   <tag></tag>
+   <elementGuidId>a7ddd232-be00-4879-aa09-36db7e3bba4f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tr[@id='product']/td[2]/a/label)[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>b792a734-0ec3-4354-a793-f2abe26dacae</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>9bf9b89d-98b8-4368-914c-cec82766c01c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>QTY: 2</value>
+      <webElementGuid>a819d547-756c-4557-b387-dc9f0f9f7070</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userCart&quot;)/tool-tip-cart[@id=&quot;toolTipCart&quot;]/div[1]/table[1]/tbody[1]/tr[@id=&quot;product&quot;]/td[2]/a[1]/label[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>3a0804b2-8b91-4981-9fab-b3abe3dd0afd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='product']/td[2]/a/label)[3]</value>
+      <webElementGuid>a69c7c7e-69b9-49c2-99da-7575735d590c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HP Z3200 WIRELESS MOUSE'])[2]/following::label[1]</value>
+      <webElementGuid>309f41ea-18fd-41e5-bf70-92702657e8bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your shopping cart is empty'])[2]/following::label[1]</value>
+      <webElementGuid>e639e4a6-d1f2-43de-93f0-d08d9c21a683</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GRAY'])[2]/preceding::label[1]</value>
+      <webElementGuid>f65d5ed2-b5b2-4ddb-af08-d43a50d89c23</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/tool-tip-cart/div/table/tbody/tr/td[2]/a/label</value>
+      <webElementGuid>0b200751-e364-43d6-8108-8e43ae9422d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'QTY: 2' or . = 'QTY: 2')]</value>
+      <webElementGuid>2f89fec7-6b9e-428e-99e2-1c06fe8ba149</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

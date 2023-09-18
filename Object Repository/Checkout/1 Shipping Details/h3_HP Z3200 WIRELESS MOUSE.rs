@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>h3_HP Z3200 WIRELESS MOUSE</name>
+   <tag></tag>
+   <elementGuidId>ae86efaa-198c-4bb7-a6f1-64af728e62e9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//tr[@id='product']/td[2]/a/h3)[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>h3</value>
+      <webElementGuid>3e70f579-daca-483f-93e9-88e53020157f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ng-binding</value>
+      <webElementGuid>e7636dd4-0227-4a6e-a4ed-667ca5ba3db1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>HP Z3200 WIRELESS MOUSE</value>
+      <webElementGuid>fb9c8daf-e642-40ef-bef3-256d196c75ec</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;userCart&quot;)/tool-tip-cart[@id=&quot;toolTipCart&quot;]/div[1]/table[1]/tbody[1]/tr[@id=&quot;product&quot;]/td[2]/a[1]/h3[@class=&quot;ng-binding&quot;]</value>
+      <webElementGuid>c8959115-692c-4852-a125-b3d829b18cf8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>(//tr[@id='product']/td[2]/a/h3)[2]</value>
+      <webElementGuid>a6c19b81-bb60-4b59-b410-31d89b6a527c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your shopping cart is empty'])[2]/following::h3[1]</value>
+      <webElementGuid>4856eb9b-6a09-4f3d-b453-f1b9d15dd689</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='(0)'])[2]/following::h3[1]</value>
+      <webElementGuid>d112fd3a-4243-495c-9d09-0a82a30a95a1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QTY: 2'])[2]/preceding::h3[1]</value>
+      <webElementGuid>e60b0022-0bfe-4114-a836-82efc8213c44</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/tool-tip-cart/div/table/tbody/tr/td[2]/a/h3</value>
+      <webElementGuid>1df7b573-e76a-4aaf-8bd3-7feb62098825</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//h3[(text() = 'HP Z3200 WIRELESS MOUSE' or . = 'HP Z3200 WIRELESS MOUSE')]</value>
+      <webElementGuid>e1036950-f7dc-458a-937f-e9aea86634ba</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,131 +1,147 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>txt_Shop Now</name>
+   <name>btn_1NEXT</name>
    <tag></tag>
-   <elementGuidId>fb287f34-f585-4815-b44b-a575a76d738e</elementGuidId>
+   <elementGuidId>bf052f56-b923-4606-a9dd-a7b9d68d5e8b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//label[@id='miceLink']</value>
+         <value>//button[@id='next_btn']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#miceLink</value>
+         <value>#next_btn</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>label</value>
-      <webElementGuid>17673212-5d95-459b-af15-1b8a7c283946</webElementGuid>
+      <value>button</value>
+      <webElementGuid>4eb670dc-3937-413c-b94d-cd634bc2d7ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>miceLink</value>
-      <webElementGuid>cac432a5-8e91-4bd0-a184-5ab053961544</webElementGuid>
+      <value>next_btn</value>
+      <webElementGuid>21756f2a-b10e-4531-9f84-edb35bc4014b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>role</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>b4b54549-ce67-4f21-8c4c-5aa024920b07</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>data-ng-click</name>
+      <type>Main</type>
+      <value>shippingDetails_next()</value>
+      <webElementGuid>7c32b679-7ead-43c5-bc93-9b4f55b72185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>shop_nowSub roboto-regular ng-scope</value>
-      <webElementGuid>fca32529-3cac-4b04-92f2-c88fbe52e428</webElementGuid>
+      <value>a-button nextBtn marginTop75 ng-scope</value>
+      <webElementGuid>a0bbd203-f25a-44f3-8239-f199a2e6f576</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>translate</name>
       <type>Main</type>
-      <value>Shop_Now</value>
-      <webElementGuid>623c6b5c-90b5-4433-a4e0-69eb4faee6df</webElementGuid>
+      <value>NEXT</value>
+      <webElementGuid>932137f5-8ea4-4e5a-a631-66573628b185</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Shop Now</value>
-      <webElementGuid>80f00cc5-dcd4-41a4-a2e7-cdbeb5161976</webElementGuid>
+      <value>NEXT</value>
+      <webElementGuid>508e276d-0bb3-479e-8eb6-ebb80fc52275</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;miceLink&quot;)</value>
-      <webElementGuid>63130393-a334-4b56-ba28-3e765cf2a7bf</webElementGuid>
+      <value>id(&quot;userSection&quot;)/div[1]/div[@class=&quot;mobileBtnHandler&quot;]/button[@id=&quot;next_btn&quot;]</value>
+      <webElementGuid>c1c53b2a-6990-4456-92ab-4b819871803d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//label[@id='miceLink']</value>
-      <webElementGuid>4eb5fa9d-820f-476b-aaa4-7c41741d39f2</webElementGuid>
+      <value>//button[@id='next_btn']</value>
+      <webElementGuid>93acd720-1ee9-4dc8-8715-b12612411b4b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='miceImg']/div/label</value>
-      <webElementGuid>48fe50c7-a16d-4c06-bef2-ceb518d8c9f1</webElementGuid>
+      <value>//div[@id='userSection']/div/div[3]/button</value>
+      <webElementGuid>fc729ab0-d9b7-4885-91fa-bfd6b72f1326</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='MICE'])[1]/following::label[1]</value>
-      <webElementGuid>7b0d1745-b074-44dc-a9a1-b7b41212b13b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SHIPPING BY:'])[1]/following::button[1]</value>
+      <webElementGuid>a0b4f9da-0733-42f6-ad0e-48814652f59d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop Now'])[3]/following::label[1]</value>
-      <webElementGuid>305902b2-3401-4bb2-b163-d51cda71bc83</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit shipping details'])[1]/following::button[1]</value>
+      <webElementGuid>ef777668-d15b-4cb4-857c-9cdd080ae810</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='HEADPHONES'])[1]/preceding::label[1]</value>
-      <webElementGuid>672a72f6-9f06-425e-a80c-a9d86e668697</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Recipient details'])[1]/preceding::button[1]</value>
+      <webElementGuid>db4541a5-fb1a-4fa0-be66-6d2fc8f7f738</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shop Now'])[5]/preceding::label[1]</value>
-      <webElementGuid>e1f704f8-5dc1-456c-81ae-901d7ab76c85</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='First Name'])[2]/preceding::button[1]</value>
+      <webElementGuid>175f9041-e609-4db5-9a4a-72139f4f8820</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/div[2]/div/label</value>
-      <webElementGuid>7ac0fc34-cfb7-4ead-89ec-584d462e144f</webElementGuid>
+      <value>//div[3]/button</value>
+      <webElementGuid>74b20cf6-3e6a-40c1-aaf5-d45de626efb4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//label[@id = 'miceLink' and (text() = 'Shop Now' or . = 'Shop Now')]</value>
-      <webElementGuid>15396394-ee5c-4f92-af51-f796551c8bef</webElementGuid>
+      <value>//button[@id = 'next_btn' and (text() = 'NEXT' or . = 'NEXT')]</value>
+      <webElementGuid>9d977b7d-7bf1-4c73-9db8-872c89c728ac</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

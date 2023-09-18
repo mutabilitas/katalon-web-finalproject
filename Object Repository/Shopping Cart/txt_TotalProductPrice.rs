@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>txt_TotalProductPrice</name>
+   <tag></tag>
+   <elementGuidId>9c033d70-43d8-42b8-a5f5-06a6b80d83ca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='shoppingCart']/table/tbody/tr/td[6]/p</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.smollCell > p.price.roboto-regular.ng-binding</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>p</value>
+      <webElementGuid>03598a52-8f0c-4364-814a-c05bd5292186</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>price roboto-regular ng-binding</value>
+      <webElementGuid>873b0188-3eb7-4430-9a85-70827cc93bf0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                            $59.98
+                        </value>
+      <webElementGuid>b49872d6-aefc-4bb1-9cb3-d6cc1f2fa33b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;shoppingCart&quot;)/table[@class=&quot;fixedTableEdgeCompatibility&quot;]/tbody[1]/tr[@class=&quot;ng-scope&quot;]/td[@class=&quot;smollCell&quot;]/p[@class=&quot;price roboto-regular ng-binding&quot;]</value>
+      <webElementGuid>bd3e84f1-7333-4149-b9c0-bba624cf85c8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='shoppingCart']/table/tbody/tr/td[6]/p</value>
+      <webElementGuid>2b4e5a12-5bb6-4700-9ed4-313074ec7fdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PRICE:'])[1]/following::p[1]</value>
+      <webElementGuid>01aa2342-2e88-4490-84f5-622dbb91dd49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='QUANTITY'])[2]/following::p[1]</value>
+      <webElementGuid>8aafc6d3-8720-4d7b-9d69-03b8e74fca63</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/preceding::p[1]</value>
+      <webElementGuid>435d89c2-b760-4771-93b4-bed04b76d582</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='|'])[1]/preceding::p[1]</value>
+      <webElementGuid>0d4c8684-4ec5-4a3f-8195-4928ff086ac1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[6]/p</value>
+      <webElementGuid>f17e480a-7338-425f-a0a1-d85453d02c0e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//p[(text() = '
+                            $59.98
+                        ' or . = '
+                            $59.98
+                        ')]</value>
+      <webElementGuid>88cf9191-0986-49e7-bfc1-d92aa5ee4617</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
