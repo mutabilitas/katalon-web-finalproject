@@ -19,9 +19,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.callTestCase(findTestCase('Reusable/View HPZ3200 product page'), [:], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.clearText(findTestObject('Product-Mice/HP Z3200/input_Quantity'), FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Product-Mice/HP Z3200/span_Color_bunny'))
 
-WebUI.setText(findTestObject('Product-Mice/HP Z3200/input_Quantity'), '2')
+WebUI.click(findTestObject('Product-Mice/HP Z3200/div_Quantity_plus'))
 
 WebUI.click(findTestObject('Product-Mice/HP Z3200/button_ADD TO CART'))
+
+WebUI.waitForElementVisible(findTestObject('Product-Mice/HP Z3200/popup_Cart'), 0)
 

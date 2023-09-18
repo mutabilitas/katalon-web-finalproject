@@ -17,9 +17,13 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.callTestCase(findTestCase('Reusable/Adding product to cart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Homepage/btn_ShoppingCart'))
 
-WebUI.callTestCase(findTestCase('Reusable/Reset cart'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.waitForElementVisible(findTestObject('Shopping Cart/h3_SHOPPING CART (2)'), 0)
 
-WebUI.closeBrowser()
+WebUI.verifyElementVisible(findTestObject('Shopping Cart/txt_HP Z3200 WIRELESS MOUSE'), FailureHandling.STOP_ON_FAILURE)
+
+WebUI.click(findTestObject('Shopping Cart/btn_Remove'))
+
+WebUI.verifyElementNotPresent(findTestObject('Shopping Cart/txt_HP Z3200 WIRELESS MOUSE'), 0)
 

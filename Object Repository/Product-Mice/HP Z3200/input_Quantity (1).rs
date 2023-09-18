@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>input_Quantity</name>
+   <name>input_Quantity (1)</name>
    <tag></tag>
    <elementGuidId>c78c7458-2fb4-428c-9a95-1f4dd1e602ea</elementGuidId>
    <selectorCollection>

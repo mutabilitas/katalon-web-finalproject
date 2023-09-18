@@ -4,17 +4,26 @@
    <name>input_Quantity</name>
    <tag></tag>
    <elementGuidId>aa796136-db7b-4d6a-a83a-9ebda6b1d308</elementGuidId>
+   <imagePath></imagePath>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//input[@name='quantity']</value>
+         <key>BASIC</key>
+         <value>//*[@name = 'quantity' and @type = 'text']</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>input[name=&quot;quantity&quot;]</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@name='quantity']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +31,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>eac12bf4-5211-44be-bb53-2d5a28c6e77b</webElementGuid>
+      <webElementGuid>2ac0f3f6-2a20-425f-b2af-f4a9d61d9c31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +39,7 @@
       <name>name</name>
       <type>Main</type>
       <value>quantity</value>
-      <webElementGuid>8df506cc-c477-4811-815a-4ed8b178ff91</webElementGuid>
+      <webElementGuid>f929ef83-116c-44ae-80af-b7833d4fbd17</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +47,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>567244b5-c934-4651-a811-5ccffb201ee5</webElementGuid>
+      <webElementGuid>82db201f-e0a2-40e1-972a-07a91de79d2b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +55,7 @@
       <name>ng-model</name>
       <type>Main</type>
       <value>numAttr</value>
-      <webElementGuid>e78a0f3e-cd58-4f86-bdc7-4ddc811e5ef9</webElementGuid>
+      <webElementGuid>8bb9470d-d146-4982-9f99-35b6b6d1d3c7</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +63,7 @@
       <name>class</name>
       <type>Main</type>
       <value>ng-pristine ng-untouched ng-valid</value>
-      <webElementGuid>35b9a22c-c7c8-45e8-ad1c-b5d89c20e63d</webElementGuid>
+      <webElementGuid>b86560ea-e9b2-4c34-9c0b-8c4bf672f2c9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +71,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;productProperties&quot;)/div[@class=&quot;smoolMargin&quot;]/e-sec-plus-minus[@class=&quot;ng-isolate-scope sec-plus-minus&quot;]/div[@class=&quot;e-sec-plus-minus&quot;]/div[2]/input[@class=&quot;ng-pristine ng-untouched ng-valid&quot;]</value>
-      <webElementGuid>0b73b197-8ff5-42b1-8dce-c8df1ca7b96c</webElementGuid>
+      <webElementGuid>380615eb-1a17-42f3-8b6f-c537ccfac3e4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -70,7 +79,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@name='quantity']</value>
-      <webElementGuid>5e5c9278-3021-41ba-af1c-bea1d737ab49</webElementGuid>
+      <webElementGuid>747bb979-ce96-4ed9-816e-8c0a77044b50</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='productProperties']/div[2]/e-sec-plus-minus/div/div[2]/input</value>
-      <webElementGuid>ff84c929-d302-4d6a-87b1-0eb98e79df86</webElementGuid>
+      <webElementGuid>42b5fe92-0fd0-4aec-9929-addc7bce85ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +95,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>3fc79485-6002-47c7-bf44-2103e269d8f9</webElementGuid>
+      <webElementGuid>95605b18-cb7a-4ae1-9d5a-3bf5f097db0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +103,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'quantity' and @type = 'text']</value>
-      <webElementGuid>3c9c0950-3432-4716-aae7-d40ecca1e318</webElementGuid>
+      <webElementGuid>33d55c17-eb7c-4e1a-9a05-e4d846eb4fd8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

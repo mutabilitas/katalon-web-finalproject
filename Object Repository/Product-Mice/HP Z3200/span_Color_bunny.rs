@@ -6,15 +6,19 @@
    <elementGuidId>12d7a694-cd07-4485-86e4-6d11278e569a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//span[@id='bunny']</value>
+         <key>BASIC</key>
+         <value>//*[@title = 'GRAY' and @id = 'bunny']</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>#bunny</value>
       </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='bunny']</value>
+      </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>b7e9bda4-972d-42bf-a160-6e95693b19d6</webElementGuid>
+      <webElementGuid>a89a52b4-6f6d-4735-9179-9646dcecb2a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +34,7 @@
       <name>title</name>
       <type>Main</type>
       <value>GRAY</value>
-      <webElementGuid>94a05890-f635-4a93-bc64-c87f05c6738f</webElementGuid>
+      <webElementGuid>527c3195-fa4e-41e8-b7dc-9b7647355422</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>bunny</value>
-      <webElementGuid>baa0d14b-4ef0-456c-9d2b-d160cf4ae86b</webElementGuid>
+      <webElementGuid>42873ca1-2e8c-47bd-84bc-889e2b9f91e5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -46,7 +50,7 @@
       <name>data-ng-repeat</name>
       <type>Main</type>
       <value>color in colors</value>
-      <webElementGuid>6d19d774-db3f-47aa-9f51-fcb4288c7db4</webElementGuid>
+      <webElementGuid>909a5598-c67e-483d-a510-1c05a3ece786</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>class</name>
       <type>Main</type>
       <value>productColor ng-scope colorSelected GRAY</value>
-      <webElementGuid>15e860f7-db40-49d5-b139-6d25644079bb</webElementGuid>
+      <webElementGuid>9bc66e63-07a2-4edb-b2bd-145da4aa6012</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -62,7 +66,7 @@
       <name>data-ng-hide</name>
       <type>Main</type>
       <value>color.code == 'ABCDEF'</value>
-      <webElementGuid>8cd06dc2-7755-4122-bd1f-73538d8b9848</webElementGuid>
+      <webElementGuid>0429a1f1-d715-4f68-a190-0643277236f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -72,7 +76,7 @@
       <value>color.code == 'FFFFFF' ?
                                           {'backgroundColor': '#' + color.code, 'border': 'solid 1px #9d9d9d' } :
                                           {'backgroundColor': '#' + color.code, 'border': 'solid 1px transparent'}</value>
-      <webElementGuid>820369fd-46ed-4e56-8426-90b954d84bf1</webElementGuid>
+      <webElementGuid>97105503-a457-4cb3-8cc4-c456daf4c8ed</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -80,7 +84,7 @@
       <name>data-ng-class</name>
       <type>Main</type>
       <value>{ colorSelected : colorSelected.name == color.name , GRAY : colorSelected.name}</value>
-      <webElementGuid>de91daa0-19fd-4ee9-8e7f-9d9ff052af93</webElementGuid>
+      <webElementGuid>cbcbcf4c-80b5-46be-958b-66976e0bfba5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -88,7 +92,7 @@
       <name>data-ng-click</name>
       <type>Main</type>
       <value>setColor(color, $event)</value>
-      <webElementGuid>11aa9607-3a3c-4fdc-a522-2faf476cdd7a</webElementGuid>
+      <webElementGuid>f3510025-557d-4e2e-8af2-88feef85dd48</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -96,7 +100,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;productProperties&quot;)/div[@class=&quot;colors ng-scope&quot;]/div[2]/span[@id=&quot;bunny&quot;]</value>
-      <webElementGuid>27df1313-00f0-4df3-8ca0-24cc7346fc8e</webElementGuid>
+      <webElementGuid>64089370-12d2-4489-b3f2-13d26dd9769d</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -104,7 +108,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//span[@id='bunny']</value>
-      <webElementGuid>69766649-edee-4704-856b-b45e3dd5b106</webElementGuid>
+      <webElementGuid>e5b6f12f-3b56-4c78-8a3d-349555a29dda</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -112,7 +116,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='productProperties']/div/div[2]/span</value>
-      <webElementGuid>2b4f0275-d55d-4055-ba00-f3108734b221</webElementGuid>
+      <webElementGuid>d2718eea-4e66-4b80-a0fe-4cd24f16af1b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -120,7 +124,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Color:'])[1]/following::span[4]</value>
-      <webElementGuid>1b45e667-4cf2-4fde-8103-d77a87c5f229</webElementGuid>
+      <webElementGuid>a190575c-4c67-4ad1-903d-d276796a7e0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -128,7 +132,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SOLD OUT'])[2]/following::span[4]</value>
-      <webElementGuid>5d162fed-b352-4acb-b208-6fb89741227f</webElementGuid>
+      <webElementGuid>56edec3c-7fba-4c85-8bbd-d42de23a5d09</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -136,7 +140,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Quantity:'])[1]/preceding::span[3]</value>
-      <webElementGuid>210e242f-cc1e-49d8-a803-d8749affa51f</webElementGuid>
+      <webElementGuid>587d45a7-ec9f-4247-a950-f9e4748b2823</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -144,7 +148,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Add Warranty'])[1]/preceding::span[3]</value>
-      <webElementGuid>d429d836-1c13-4174-bdd8-ad9a3c8f2480</webElementGuid>
+      <webElementGuid>15599963-b99f-44b7-b171-6b43379119cd</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -152,7 +156,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/span</value>
-      <webElementGuid>f1b2340b-3c80-4fd5-b7f0-b82743c9a6e7</webElementGuid>
+      <webElementGuid>364fc1a5-d6ce-4776-a57a-a3f2d643fbf3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -160,6 +164,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[@title = 'GRAY' and @id = 'bunny']</value>
-      <webElementGuid>3f423f0d-bcb8-4004-b272-af35857daf91</webElementGuid>
+      <webElementGuid>fd694b50-8948-4adf-b15e-6bf0af39bf21</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
